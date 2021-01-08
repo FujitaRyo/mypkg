@@ -28,7 +28,7 @@ catkin_makeを使用して、本パッケージをビルドします。
 `$ roscore`  
 端末２  
 `$ chmod +x count.py`  
-`$ rosrun mypkg count.py`or`rosrun mypkg twice.py
+`$ rosrun mypkg count.py`or`rosrun mypkg twice.py`
 端末３  
 `$ rosnode list`と`$ rostopic list`でノードとトピックを確認します。  
 `$ rostopic echo /count_up`or`$ rostopic echo /twice`でデータを取り出します。　　
