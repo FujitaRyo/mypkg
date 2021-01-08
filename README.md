@@ -9,9 +9,9 @@
 ・ROS Noetic  
 # インストール方法
 ・ROS    
-[ros_setup_scripts_Ubuntu20.04](http://github.com/ryuichiueda/ros_setup_scripts_Ubuntu20.04_server)をもとにROSの環境構築をします。
-*・ワークスペース*   
-[ロボットシステム学第１０回](https://ryuichiueda.github.io/robosys2020/lesson10_ros.html#/)をもとにワークスペースを作成します。  
+[ros_setup_scripts_Ubuntu20.04](http://github.com/ryuichiueda/ros_setup_scripts_Ubuntu20.04_server)をもとにROSの環境構築をします。  
+・ワークスペース     
+[ロボットシステム学第１０回](https://ryuichiueda.github.io/robosys2020/lesson10_ros.html#/)をもとにワークスペースを作成します。
 # 実行方法
 # デモ動画
 # ライセンス
