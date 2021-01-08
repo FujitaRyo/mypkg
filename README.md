@@ -30,8 +30,7 @@ _ _ _
 端末１  
 `$ roscore`  
 
-端末２  
-`$ chmod +x count.py`  
+端末２   
 `$ rosrun mypkg count.py` or `rosrun mypkg twice.py`  
 
 端末３  
@@ -42,6 +41,9 @@ _ _ _
 ・count.py  
 https://www.youtube.com/watch?v=di_exuS_x94  
 ・twice.py  
+_ _ _
+# 参考著者  
+[Ryuichi Ueda]https://github.com/ryuichiueda
 _ _ _
 # ライセンス
 BSD 3-Clause License
