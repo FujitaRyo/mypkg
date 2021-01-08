@@ -13,8 +13,16 @@ _ _ _
 # インストール方法
 **・ROS**    
 [ros_setup_scripts_Ubuntu20.04](http://github.com/ryuichiueda/ros_setup_scripts_Ubuntu20.04_server)をもとにROSの環境構築をします。  
-・ワークスペース     
-[ロボットシステム学第１０回](https://ryuichiueda.github.io/robosys2020/lesson10_ros.html#/)をもとにワークスペースを作成します。
+**・ワークスペース**     
+[ロボットシステム学第１０回](https://ryuichiueda.github.io/robosys2020/lesson10_ros.html#/)をもとにワークスペースを作成します。  
+**・パッケージ**  
+以下のコマンドを実行して、パッケージをクローンする。  
+`$ cd ~/catkin_ws/src`  
+`$ cd clone https://github.com/FujitaRyo/mypkg`  
+catkin_makeを使用して本パッケージをビルドします。  
+`$ cd ~/catkin_ws`  
+`$ catkin_make`  
+`$ source ~/.bashrc`  
 # 実行方法
 # デモ動画
 # ライセンス
