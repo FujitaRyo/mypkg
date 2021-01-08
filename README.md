@@ -43,7 +43,7 @@ https://www.youtube.com/watch?v=di_exuS_x94
 ・twice.py  
 _ _ _
 # 参考著者  
-[Ryuichi Ueda]https://github.com/ryuichiueda
+[Ryuichi Ueda](https://github.com/ryuichiueda)
 _ _ _
 # ライセンス
 BSD 3-Clause License
