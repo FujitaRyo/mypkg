@@ -25,6 +25,7 @@ catkin_makeを使用して、本パッケージをビルドします。
 `$ cd ~/catkin_ws`  
 `$ catkin_make`  
 `$ source ~/.bashrc`  
+_ _ _
 # 実行方法  
 端末１  
 `$ roscore`  
@@ -35,12 +36,12 @@ catkin_makeを使用して、本パッケージをビルドします。
 
 端末３  
 `$ rosnode list`と`$ rostopic list`でノードとトピックを確認します。  
-`$ rostopic echo /count_up` or `$ rostopic echo /twice`でデータを取り出します。　　
+`$ rostopic echo /count_up` or `$ rostopic echo /twice`でデータを取り出します。　
+_ _ _
 # デモ動画  
 ・count.py  
 https://www.youtube.com/watch?v=di_exuS_x94  
 ・twice.py  
-
+_ _ _
 # ライセンス
 BSD 3-Clause License
-
