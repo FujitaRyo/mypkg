@@ -3,7 +3,7 @@
 第10回で作成したROSのパッケージをベースに、オリジナリティーある改造をして、GitHubに置いてください。ROSで何か（必ずしもハードウェアである必要はありません）を動かしている様子をビデオに撮影してYouTubeに公開してください。第9回の内容も考慮し、リポジトリにはライセンスや著作権の記述もしてください。ROSの設定ファイルにもライセンスを記述する箇所がありますので、ご注意ください。
 _ _ _
 # 実装内容
-今回の課題２はROSの授業についていくので精一杯だったので、上田先生が作成したROSのパッケージを自分できちんと動かせるかを試しました。
+上田先生が作成したROSのパッケージを自分できちんと動かせるかを試しました。
 _ _ _
 # 動作環境  
 ・Raspberry Pi 4 Model B(8G)    
@@ -31,16 +31,18 @@ _ _ _
 `$ roscore`  
 
 端末２   
-`$ rosrun mypkg count.py` or `rosrun mypkg twice.py`  
+`$ chmod +x count.py` 、`$ chmod +x twice.py`  
+`$ rosrun mypkg count.py` 、`rosrun mypkg twice.py`  
 
 端末３  
 `$ rosnode list`と`$ rostopic list`でノードとトピックを確認します。  
-`$ rostopic echo /count_up` or `$ rostopic echo /twice`でデータを取り出します。　
+`$ rostopic echo /count_up` 、`$ rostopic echo /twice`でデータを取り出します。　
 _ _ _
 # デモ動画  
 ・count.py  
 https://www.youtube.com/watch?v=di_exuS_x94  
 ・twice.py  
+https://www.youtube.com/watch?v=CDDHCLWzFu8  
 _ _ _
 # 参考著者  
 [Ryuichi Ueda](https://github.com/ryuichiueda)
